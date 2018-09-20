@@ -1,0 +1,45 @@
+body{
+	font-family: Times, Serif;
+	font-size: 16px;
+	color: rgb(25,13,1); 
+}
+h1{
+	font-size: 1.5em;
+	color: rgb(255,50,80);
+}
+h2{
+	font-size: 1.2em;
+	color: black;
+	border: 1px solid red;
+}
+p{
+	color: green;
+	border: 5px solid green;
+	width: 80%;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+#menu{
+	border: 5px solid green;
+}
